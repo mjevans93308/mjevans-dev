@@ -15,6 +15,5 @@ module.exports = withPlugins([
     {
         assetPrefix: '/mjevans-dev/',
         basePath: '/mjevans-dev',
-        env,
     },
 ]);
