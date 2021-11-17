@@ -35,8 +35,8 @@ export const Navbar = () => {
           </svg>
         </button>
         <div className="w-full lg:inline-flex lg:flex-grow lg:w-auto">
-          <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
-            <a href="/resume_08_28_2021.pdf" alt="hello" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white">
+          <div className="inline-flex flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start lg:h-auto">
+            <a href="/resume_08_28_2021_no_contact_info.pdf" alt="hello" className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white">
                 <FontAwesomeIcon className="mr-2" icon={faCloudDownloadAlt} />
                 Resume
             </a>

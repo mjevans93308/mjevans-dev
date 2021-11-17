@@ -7,6 +7,8 @@ import { Navbar } from '../components/Navbar';
 import { config as fontAwesomeConfig, dom } from "@fortawesome/fontawesome-svg-core";
 fontAwesomeConfig.autoAddCss = false;
 
+// run locally with `yarn run build && yarn run start`
+
 export default function Home() {
   return (
     <div className="flex flex-col justify-between h-screen antialiased leading-7 bg-gray-100">
@@ -29,18 +31,15 @@ export default function Home() {
             I'm an experienced software engineer with a passion for learning new things.
           </p>
           <p className="m-4">
-            I currently live in Denver, so if you are in the neighborhood and are currently looking for an experienced backend engineer, feel free to reach out!
-          </p>
-          <p className="m-4">
-            My resume is available for viewing in the top-right, as is my Twitter, LinkedIn, and Github.
+            Currently I'm mostly focused on backend development in Go and Python, but have been playing around with 
+            <a href="https://nextjs.org/" className="text-blue-600 hover:text-blue-700 ml-1 hover:underline">Next.js </a> 
+            and 
+            <a href="https://tailwindcss.com/" className="text-blue-600 hover:text-blue-700 ml-1 hover:underline">tailwindcss</a> for building out a beautiful UI in record time.
           </p>
           <p className="m-4">
             I am available via email at 
             <a href="mailto:me@mjevans.dev" className="text-blue-600 hover:text-blue-700 ml-1 hover:underline">me@mjevans.dev</a>,
-            or you can shoot me a message via DM on Twitter at 
-            <a href="https://twitter.com/mevans93308" className="text-blue-600 hover:text-blue-700 ml-1 hover:underline">
-              @mevans93308
-            </a>.
+            or you can shoot me a message via DM on Twitter if you want to chat.
             <p className="m-4">
                 Look forward to hearing from you!
             </p>
