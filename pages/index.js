@@ -31,14 +31,14 @@ export default function Home() {
             I'm an experienced software engineer with a passion for learning new things.
           </p>
           <p className="m-4">
-            Currently I'm mostly focused on backend development in Go and Python, but have been playing around with 
+            Currently I'm mostly focused on backend development in Go and Java, but have been playing around with 
             <a href="https://nextjs.org/" className="text-blue-600 hover:text-blue-700 ml-1 hover:underline">Next.js </a> 
             and 
             <a href="https://tailwindcss.com/" className="text-blue-600 hover:text-blue-700 ml-1 hover:underline">tailwindcss</a> for building out a beautiful UI in record time.
           </p>
           <p className="m-4">
             I am available via email at 
-            <a href="mailto:me@mjevans.dev" className="text-blue-600 hover:text-blue-700 ml-1 hover:underline">me@mjevans.dev</a>,
+            <a href="mailto:inquiries@mjevans.dev" className="text-blue-600 hover:text-blue-700 ml-1 hover:underline">inquiries@mjevans.dev</a>,
             or you can shoot me a message via DM on Twitter if you want to chat.
             <p className="m-4">
                 Look forward to hearing from you!
